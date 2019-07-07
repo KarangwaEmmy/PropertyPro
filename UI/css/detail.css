@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .btn a{
+    background: rgb(88, 78, 78);
+border: none;
+color: white;
+text-decoration: none;
+padding: 14px 28px;
+text-align: center;
+font-size: 16px;
+float: unset;
+opacity: 0.8;
+transition: 0.3s;
+text-transform: uppercase;
+
+}
+.btn a:hover{
+  background: #334549;
+}
+.act{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.action a{
+    background: rgb(41, 197, 93);
+ 
+color: white;
+text-decoration: none;
+padding: 14px 28px;
+text-align: center;
+font-size: 13px;
+opacity: 0.8;
+transition: 0.3s;
+text-transform: uppercase;
+
+}
+.delete a{
+    background: rgb(219, 14, 14);
+ 
+color: white;
+text-decoration: none;
+padding: 14px 28px;
+text-align: center;
+font-size: 13px;
+opacity: 0.8;
+transition: 0.3s;
+text-transform: uppercase;
+
+}
+.sold a{
+    background: rgb(196, 178, 19);
+ 
+color: white;
+text-decoration: none;
+padding: 14px 28px;
+text-align: center;
+font-size: 13px;
+opacity: 0.8;
+transition: 0.3s;
+text-transform: uppercase;
+
+}
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 0 !important;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Hide the images by default */
+.mySlides {
+display: none;
+margin: 0 auto;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width:0 auto;
+padding: 16px;
+margin-top: -50px;
+color: rgb(253, 253, 253);
+font-weight: bold;
+font-size: 20px;
+background: rgb(88, 78, 78);
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+width: auto;
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: white;
+opacity: 0.4;
+}
+.row .column{
+margin: 0 auto;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Six columns side by side */
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+.title{
+color: rgb(8, 14, 14);
+margin: auto;
+font-weight: bold;
+border-bottom: 3px solid #334549;
+}
+.detail{
+padding: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: auto;
+width: auto;
+
+}
+  .property{
+      padding: 10px;
+
+  }
+  .property ul li{
+      list-style: none;
+      padding: 10px;
+      font-size: 20px;
+      color: #222;
+      margin-left: 0px;
+  }
+  .property ul li.price{
+      color: #af8028;
+      font-weight: bold;
+
+  }
+  .property ul li span {
+      color: red;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .row .column{
+        display: none;
+    }
+  }

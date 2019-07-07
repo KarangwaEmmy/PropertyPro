@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Property Pro Lite",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PropertyPro"
+  },
+  "keywords": [
+    "rent",
+    "sell"
+  ],
+  "author": "Emmy Karangwa",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "cli": "^1.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
