@@ -15,11 +15,11 @@
 
 Clone repository
 
-copy the link to the project from github website
-create a folder on local machine
-cd in to the folder and call a git init
-git clone repository
-npm install to install development dependencies
+-copy the link to the project from github website
+-create a folder on local machine
+-cd in to the folder and call a git init
+-git clone repository
+-npm install to install development dependencies
 
 Template URL
 https://karangwaemmy.github.io/PropertyPro/UI/html/
