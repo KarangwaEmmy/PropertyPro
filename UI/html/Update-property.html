@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PropertyPro-Lite | Update property</title>
+	<!-- web css -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- Font css -->
+	<link rel="stylesheet" type="text/css" href="../css/fonts/css/all.css">
+	<!-- customized css -->
+	<script src="../js/custom.js"></script>
+	<!-- Adding favicon -->
+	<link rel="stylesheet" sizes="16*16" href="../images/logo.jpg">
+	<link rel="shortcut icon" type="image/png" href="../images/download.jpg">
+</head>
+<body>
+	<header class="header" id="header">
+ 
+	
+	<!-- top header -->
+	<!-- toggle menu -->
+	<div class="toggle-menu">
+			<div class="logo-name logo-responsive">
+					<h1> <a href=""><span class="prom">PropertyPro</span><span class="prom">-Lite</span></a></h1>
+				</div>
+				<div class="icon icon-toggle" onclick="myFunction()">
+						<span class="fa fa-bars"></span>
+				</div>
+	</div>
+	<!--== navigation header ==-->
+	<div class="middle-header">
+		<div class="container">
+			<div class="logo logo-toggle">
+				<h1> <a href=""><span class="prom">PropertyPro</span><span class="prom">-Lite</span></a></h1>
+			</div>
+			<div class="site-nav" id="site-nav">
+				<ul>
+                    <li > <a href="Dashboard.html" > <i class="fa fa-home" class="icon"></i>  Dashboard</a></li>
+                    <li class="active"> <a href="Update-property.html" ><i class="far fa-edit"></i> Update property</a></li>
+					<li> <a href=" "> </a></li>
+					<li> <a href=" "> </a></li>
+					<li > <a href="Login.html"><i class="fas fa-plus-square"></i> Create Advert</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end of navigation header -->
+	<ul class="breadcrumb">
+		<li><a href="#">User Dashboard</a></li>
+        <li class="active"><a href="#">Update property</a></li>
+	  </ul>
+	</header>
+	<main class="main" id="main">
+        <form id="proform">
+            
+                <!-- fieldsets -->
+                <fieldset>
+                    <h2 class="fs-title">Create Advert</h2><br>
+                    <h3 class="fs-subtitle">Few clicks to add your advert</h3> <br>
+                    <input type="text" value="Emmy Karangwa" name="owner" placeholder="Owner of the property"/>
+                    <input type="text" value="Sold" name="status" placeholder="status">
+                    <select name="" id="">
+                        <option value="">Select status</option>
+                        <option value="sold">Sold</option>
+                        <option value="available">available</option>
+                    </select>
+                    <input type="text" value="$6000" name="price" placeholder="Enter price">
+                    <input type="text" value="Kimironko" name="state" placeholder="State where property is located">
+                    <input type="text" value="Kigali City" name="city" placeholder="City where property is located">
+                    <input type="text" value="Karangwaemmanuel@gmail.com" name="address" placeholder="Enter your address"/>
+                    <select name="" id="">
+                            <option value="3 Bedroom">Select type</option>
+                            <option value="sold">2 Bedroom</option>
+                            <option value="available">3 Bedroom</option>
+                            <option value=""> 4 Bedroom</option>
+                            <option value=""> 5 Bedroom</option>
+                        </select>
+                    <input type="file" name="image" multiple[]>
+                    <input type="button" name="next" class="next action-button" value="Save Changes"/> 
+                     
+                     
+                </fieldset>
+            </form>
+</main><br><br><br>
+ 
+
+ 
+</body>
+</html> 
