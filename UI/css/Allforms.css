@@ -1,0 +1,108 @@
+/* ===== FORM ELEMENTS==== */
+ 
+
+#proform {
+	
+	text-align: center;
+	font-size: 19px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    margin-top: 0px;
+    opacity: 1;
+    
+}
+
+#proform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 5px 1px rgba(16, 18, 20, 0.4);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 23%;
+    border-radius: 0px;
+
+}
+label{
+    color: #2C3E50;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 0px !important;
+    margin-bottom: 400px;
+}
+/*inputs*/
+#proform input, select, option, #proform textarea {
+	padding: 15px;
+	border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 13px;
+}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		color: rgb(72, 86, 88);
+	}
+#proform input:focus, #proform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: ox;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+	-o-transition: All 0.5s ease-in;
+	font-size: 18px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*buttons*/
+#proform .action-button {
+	width: 200px;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 16px;
+    background: #55A4D7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#proform .action-button:hover{
+	background: #9EC0D6;
+}
+a{
+    color: #55A4D7;
+}
+.login {
+	width: 200px;
+	text-decoration: none;
+	text-underline-position: unset;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 17px;
+}
+label{
+	width: 200px;
+	color: #797979;
+	margin-bottom: 10px;
+	text-decoration: none;
+	text-underline-position: unset;
+	text-align: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 17px;
+}
+#proform .action-button:hover, #proform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #4e6f70;
+}
+ 
+/* End of form css */

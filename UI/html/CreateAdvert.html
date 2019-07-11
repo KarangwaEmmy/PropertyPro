@@ -7,13 +7,20 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/Allforms.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts/css/all.css">
-	<script src="js/custom.js"></script>
+	<script src="../js/custom.js"></script>
 	<link rel="shortcut icon" type="image/png" href="../images/download.jpg">
 </head>
+<title>Create an advert</title>
 <body>
+<!-- <h1>Welcome to PropertyPro-Lite</h1> -->
+<header class="header" id="header">
+	 
+
+<!-- top header -->
+<!-- toggle menu -->
 <div class="toggle-menu">
 		<div class="logo-name logo-responsive">
-				<h1> <span class="pron">PropertyPro</span><span class="lite">-Lite</span> </h1>
+				<h1> <a href=""><span class="pron">Pro</span><span class="lite">-Lite</span></a></h1>
 			</div>
 			<div class="icon icon-toggle" onclick="myFunction()">
 					<span class="fa fa-bars"></span>
@@ -21,40 +28,57 @@
 </div>
 <!--== navigation header ==-->
 <div class="middle-header">
-	<div class="container">
-		<div class="logo logo-toggle">
-			<h1> <a href=""><span class="prom">PropertyPro</span><span class="lite">-Lite</span></a></h1>
-		</div>
-		<div class="site-nav" id="site-nav">
-			<ul>
-				
-				<li > <a href="index.html" ><i class="fa fa-home" class="icon"></i>  Home</a></li>
-				<li> <a href="Signup.html"><i class="fa fa-user" class="icon"></i> Sign up</a></li>
-				<li class="active"> <a href=""><i class="fas fa-sign-in-alt" class="icon"></i> Sign in</a></li>
-			</ul>
+		<div class="container">
+			<div class="logo logo-toggle">
+				<h1> <a href="Dashboard.html"><span class="prom">PropertyPro</span><span class="lite">-Lite</span></a></h1>
+			</div>
+			<div class="site-nav" id="site-nav">
+				<ul>
+					 
+					<li> <a href="CreateAdvert.html"><i class="fas fa-plus-square"></i>  Add Property</a></li>
+					<li> <a href=""> </a></li>
+					<li > <a href=""> </a></li>
+					<li> <a href=""> </a></li>
+					<li > <a href="index.html"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
- 
 </header>
 <ul class="breadcrumb">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="#">Login</a></li>
-		 
-	  </ul>
+		<li><a href="index.html">Dashboard</a></li>
+		<li><a href="#">Add new Property</a></li>
+	</ul>
 <main class="main" id="main">
         <form id="proform">
+            
+                <!-- fieldsets -->
                 <fieldset>
-                    <h3 class="fs-title">LOGIN</h3><br>
-					<h6 class="fs-subtitle">Enter your credentials to log in to your account.</h6><br><br>
-					<input type="text" name="username" placeholder="Enter username"/>
-                    <input type="password" name="password" placeholder="password"/> 
-					 <a href="Dashboard.html"><input type="button" name="next" class="next action-button" value="Login"/></a> <br>
-					  <span class="login"> <a href="forgot-password.html">Forgot password</a></span><br><br>
-                    <label for="account">Don't have an Account? </label><span class="login"> <a href="Signup.html">Create account</a></span>
+                    <h2 class="fs-title">Create Advert</h2><br>
+                    <h3 class="fs-subtitle">Few clicks to add your advert</h3> <br>
+                    <input type="text" name="owner" placeholder="Owner of the property"/>
+                    <input type="text" name="status" placeholder="status">
+                    <select name="" id="">
+                        <option value="">Select status</option>
+                        <option value="sold">Sold</option>
+                        <option value="available">available</option>
+                    </select>
+                    <input type="text" name="price" placeholder="Enter price">
+                    <input type="text" name="state" placeholder="State where property is located">
+                    <input type="text" name="city" placeholder="City where property is located">
+                    <input type="text" name="address" placeholder="Enter your address"/>
+                    <select name="" id="">
+                            <option value="">Select type</option>
+                            <option value="sold">2 Bedroom</option>
+                            <option value="available">3 Bedroom</option>
+                            <option value=""> 4 Bedroom</option>
+                            <option value=""> 5 Bedroom</option>
+                        </select>
+                    <input type="file" name="image" multiple[]>
+                    <input type="button" name="next" class="next action-button" value="Submit"/>
                 </fieldset>
             </form>
-</main>
+</main><br><br><br>
 <footer>
 	<div class="footer">
 		<div class="bg-footer">

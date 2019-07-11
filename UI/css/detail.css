@@ -1,212 +1,116 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+html{ font-family: 'Lato', sans-serif; }
+
+img{ 
+  height: 400px;;
+  max-width: 100%; }
+
+.wrapper{
+  width: 960px;
+  margin: 10px auto;
+}
+h5{
+  padding-bottom: 5px;
+}
+hr{
+  margin-bottom:5px;
+}
+.col-1-2{
+  float: left;
+  width: 50%;
+}
+
+.product-wrap{
+  margin: 0 auto;
+  width: 350px;
+}
+.product-shot{
+  padding-top: 30px;
+  transition: all 0.5s ease;
+  
+}
+.product-shot:hover{ transform: scale(1.2); }
+  .property h2{
+    padding-bottom: 15px;
+    font-size: 32px; 
+    border-bottom: 1px solid #d9d9d9;
   }
   
-  * {
-    box-sizing: border-box;
+  .property .desc{ 
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.6;
   }
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
+  
+  .property .sizing-list{
+    margin-top: 25px;
+    padding: 0px;
+    list-style-type: none; 
   }
-  .btn a{
-    background: rgb(88, 78, 78);
-border: none;
-color: white;
-text-decoration: none;
-padding: 14px 28px;
-text-align: center;
-font-size: 16px;
-float: unset;
-opacity: 0.8;
-transition: 0.3s;
-text-transform: uppercase;
+  
+  .property .size{ 
+    display: inline;
+    margin-right: 10px;
+    padding: 10px 15px; 
+    color: rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
+    cursor: pointer;
+    
+    
+  }
+.details ul{
+  padding-top: 20px;
 
 }
-.btn a:hover{
-  background: #334549;
+.details ul li{
+list-style-type: none;
+margin-bottom: 2px auto;
 }
-.act{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.details ul li.a{
+  text-decoration: none;
+}
+.action{
+  width: 100%;
+  float: auto;
+  padding-bottom: 0px;
 }
 .action a{
-    background: rgb(41, 197, 93);
- 
+  display: inline-block;
+  background: rgb(41, 197, 93);
 color: white;
 text-decoration: none;
-padding: 14px 28px;
-text-align: center;
-font-size: 13px;
+margin-top: 35px;
+padding: 12px 25px;
+font-size: 16px;
 opacity: 0.8;
 transition: 0.3s;
 text-transform: uppercase;
 
 }
 .delete a{
-    background: rgb(219, 14, 14);
- 
+  display: inline-block;
+  background: rgb(219, 14, 14);
 color: white;
 text-decoration: none;
-padding: 14px 28px;
-text-align: center;
-font-size: 13px;
+margin-top: 35px;
+padding: 12px 25px;
+font-size: 16px;
 opacity: 0.8;
 transition: 0.3s;
 text-transform: uppercase;
 
 }
 .sold a{
-    background: rgb(196, 178, 19);
- 
+  display: inline-block;
+background: rgb(196, 178, 19);
 color: white;
-text-decoration: none;
-padding: 14px 28px;
-text-align: center;
-font-size: 13px;
+margin-top: 35px;
+padding: 12px 25px;
+font-size: 16px;
 opacity: 0.8;
 transition: 0.3s;
 text-transform: uppercase;
 
 }
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 40%;
-    margin-top: 60px;
-    margin-left: 0 !important;
-    padding: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* Hide the images by default */
-.mySlides {
-display: none;
-margin: 0 auto;
+.button:hover{
+  background-color: #323232;
 }
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-cursor: pointer;
-position: absolute;
-top: 40%;
-width:0 auto;
-padding: 16px;
-margin-top: -50px;
-color: rgb(253, 253, 253);
-font-weight: bold;
-font-size: 20px;
-background: rgb(88, 78, 78);
-border-radius: 0 3px 3px 0;
-user-select: none;
--webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-width: auto;
-right: 0;
-border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-text-align: center;
-background-color: #222;
-padding: 2px 16px;
-color: white;
-opacity: 0.4;
-}
-.row .column{
-margin: 0 auto;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-
-/* Six columns side by side */
-
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-opacity: 1;
-}
-.title{
-color: rgb(8, 14, 14);
-margin: auto;
-font-weight: bold;
-border-bottom: 3px solid #334549;
-}
-.detail{
-padding: 20px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin: auto;
-width: auto;
-
-}
-  .property{
-      padding: 10px;
-
-  }
-  .property ul li{
-      list-style: none;
-      padding: 10px;
-      font-size: 20px;
-      color: #222;
-      margin-left: 0px;
-  }
-  .property ul li.price{
-      color: #af8028;
-      font-weight: bold;
-
-  }
-  .property ul li span {
-      color: red;
-  }
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-    .row .column{
-        display: none;
-    }
-  }

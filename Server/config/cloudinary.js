@@ -1,5 +1,8 @@
 var cloudinary = require('cloudinary');
 
+require('dotenv').config();
+
+var cloudinary = require('cloudinary').v2;
 cloudinary.config({ 
     cloud_name: process.env.CLOUDNARY_NAME, 
     api_key: process.env.CLOUDNARY_API_KEY, 
