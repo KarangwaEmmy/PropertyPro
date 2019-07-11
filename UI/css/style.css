@@ -1,88 +1,4 @@
- /* CSS for the PropertyPro-Lite */
-*{
-	padding: 0px;
-	margin: 0px;
-}
-body{
-	font-size: 15px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.top-header{
-	 
-	color:#333;
-	padding: 5px 0px;
-}
-.container{
-	width: 1170px;
-	margin: 0 auto;
-	-webkit-animation-delay: 100ms;
-}
-.container:after{
-content: "";
-display: block;
-clear: both;
-}
-.site-info{
-	float: left;
-}
-.site-contact{
-	float: right;
-	padding-bottom: 2px;
-}
-/* navigation css */
 
-.middle-header{
-	background-color: rgb(255, 255, 255);
-	padding: 10px 0;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-}
-.logo{
-float: left;
-}
-.logo a{
-	text-decoration: none;
-	color: #333;
-}
-.logo a span.pro{
-color: #efc050 ;
-}
-.site-nav{
-	float: right;
-}
-.site-nav ul{
-	display: flex;
-}
-.site-nav ul li{
-	display: inline-block;
-	list-style-type: block;
-	padding: 10px 10px;
-}
-.site-nav ul li a{
-	display: block;
-	padding: 10px 10px;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #333;
-}
-.site-nav ul li.active a{
-	color: #efc050 ;
-}
-.site-nav ul li a:hover{
-	 	color:#efc050 ;
-}
-.site-nav ul li a .advert{
-	background: rgb(88, 78, 78);
-}
- 
-.icon{
-	font-size: 20px;
-	color: #efc050 ;
-	padding: 5px 20px;
-	 
-}
-.prom{
-	height: 40px;
-}
 /* Image and search form css */
 
 .pro-header{
@@ -104,7 +20,7 @@ color: #efc050 ;
  
 }
 span{
-	color: rgb(88, 78, 78);
+	color: #55A4D7;
 	text-decoration: none;
 }
 .search-field{
@@ -120,12 +36,12 @@ span{
 .search-btn{
 	height: 50px;
 	width: 150px;
-	background: rgb(88, 78, 78);
+	background: #55A4D7;
 	border: none; 
 	color: #fff;
 }
 .search-btn:hover{
-	background: rgb(88, 78, 78);
+	background: #55A4D7;
 	cursor: pointer;
 }
 .form-box{
@@ -142,16 +58,55 @@ input{
 	font-size: 25px;
 }
 /* End of header search css */
+/* mark */
+.mark{
+	width: 90%;
+	position: absolute;
+	margin-top:140px;
+}
+.mark ul{
+	margin-block-end: 0%;
+	float: left;
+   
+	margin: 0 12%;
+	background-color: transparent;
+}
+.mark ul li.sold{
+background-color: rgb(247, 63, 7);
+position: absolute; 
+margin-left: 100px;
+list-style-type: none;
+padding: 5px;
+border-radius: 12px;
+color: aliceblue;
+opacity: 0.8;
 
+}
+.mark ul li.available{
+background-color: rgb(48, 206, 119);
+position: absolute; 
+margin-left: 100px;
+list-style-type: none;
+padding: 5px;
+border-radius: 12px;
+color: aliceblue;
+opacity: 0.8;
+
+}
+.mark ul li:hover{
+background-color: rgb(112, 91, 91);
+}
 /* web content css */
  .main{
  	padding: 50px 20px 20px 20px;
- 	text-align: center;
+	 text-align: center;
+	 margin-bottom: 30px;
  }
  .content{
 	 padding: 0 0 50px 0;
 	 margin: auto;
  }
+ 
  /* Footer css */
  .footer{
 	 padding: 50px 0;
@@ -198,16 +153,11 @@ input{
 	 color: rgb(59, 53, 53);
 	 padding: 15px 0;
  }
- .copy{
-	 float: left;
- }
  .copyright{
-padding-top: 30px 0;
+padding-top: 10px 0;
 margin-top: 30px;
- 
+margin: 0 40%;
 
- }.social{
-	 float: right;
  }
  .copyright:after{
 	 clear: both;
@@ -219,43 +169,25 @@ margin-top: 30px;
 	 list-style-type: none;
  }
  .social li a{
-	color: rgb(153, 143, 143);
+	color: #55A4D7;
 	 display: block;
 	 text-decoration: none;
-	 padding: 4px 10px;
+	 padding: 5px 10px;
+	 transition: transform .2s;
 	 margin-bottom: 4px;
-	 border: 2px solid #ddd;
-	 border-radius: 10px;
+	 margin-left: 10px;
+	 border: 2px solid #55A4D7;
+	 border-radius: 50px;
 	 
  }
  .social li a:hover{
-	 color:#dfd9cd ;
-	 transform: uppercase;
+	 color: rgb(231, 220, 198);
+	transform: scale(1.3);
+	border: 2px solid rgb(223, 211, 191);
  }
 /* End of footer css */
 
-/* Toggle navigation css */
 
-.toggle-menu{
-	background-color: #fff;
-	padding: 24px 20px 35px 20px;
-	color: #fff;
-	display: none;
-	position: relative;
-}
-.logo-responsive{
-text-decoration: none;
-float: left;
-}
-.icon-toggle{
-	float: right;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-}
-.icon-toggle:hover{
-	cursor: pointer;
-}
 
 /* ==== PRODUCT CSS */
 
@@ -294,29 +226,15 @@ float: left;
 	font-size: 20px;
 	text-align: center;
 	margin: 0px;
-	color: #252420 ;
+	color: #55A4D7 ;
 	padding: 10px 0px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 .prod-heading h1 a{
-	color: #efc050 ;
+	color: #55A4D7 ;
 }
-.old-prod{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
-.old-prod{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 15px;
-	text-align: center;
-	margin: 0px;
-	color: #333;
-	padding: 5px;
-	line-height: 1;
-	text-decoration: none;
-}
+ 
 .price{
 	width: 100%;
 	height: auto;
@@ -324,10 +242,10 @@ float: left;
 }
 .price{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	margin: 0px;
-	color: #c9bb40 ;
+	color: #5c3454 ;
 	line-height: 1;
 	font-weight: 700;
 	padding: 10px;
@@ -351,7 +269,7 @@ float: left;
 }
 .view-button{
 	 padding: 10px;
-	 background: rgb(88, 78, 78);
+	 background: #55A4D7;
 	 margin: auto;
 }
 .view-button p a{
@@ -365,7 +283,7 @@ float: left;
 	text-decoration: none;
 }
 .view-button:hover{  
-	background:#444444;
+	background:grey;
 }
  
 .product:hover .prod-detail, .product:hover .view-button{
@@ -392,98 +310,7 @@ float: left;
 }
 /* End of product css */
 
-/* ===== FORM ELEMENTS==== */
 
-#proform {
-	
-	text-align: center;
-	font-size: 19px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
-    margin-top: 0px;
-    opacity: 1;
-    
-}
-
-#proform fieldset {
-    background: white;
-    border: 0 none;
-    border-radius: 0px;
-    box-shadow: 0 0 5px 1px rgba(16, 18, 20, 0.4);
-    padding: 20px 50px;
-    box-sizing: border-box;
-    width: 50%;
-    margin: 0 23%;
-    border-radius: 0px;
-
-}
-
-/*inputs*/
-#proform input, select, option, #proform textarea {
-	padding: 15px;
-	border-radius: 10px;
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    color: #2C3E50;
-    font-size: 13px;
-}
-	a{
-		text-decoration: none;
-	}
-	a:hover{
-		color: rgb(72, 86, 88);
-	}
-#proform input:focus, #proform textarea:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline-width: ox;
-    transition: All 0.5s ease-in;
-    -webkit-transition: All 0.5s ease-in;
-    -moz-transition: All 0.5s ease-in;
-	-o-transition: All 0.5s ease-in;
-	font-size: 18px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/*buttons*/
-#proform .action-button {
-	width: 200px;
-	text-align: center;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 16px;
-    background: #212c30;
-    font-weight: bold;
-    color: white;
-    border: 0 none;
-    border-radius: 25px;
-    cursor: pointer;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-.login {
-	width: 200px;
-	text-decoration: none;
-	text-underline-position: unset;
-	text-align: center;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 17px;
-}
-label{
-	width: 200px;
-	text-decoration: none;
-	text-underline-position: unset;
-	text-align: left;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 17px;
-}
-#proform .action-button:hover, #proform .action-button:focus {
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #4e6f70;
-}
-/* End of form css */
 /* Style the list */
 ul.breadcrumb {
 	padding: 10px 66px;
@@ -519,381 +346,4 @@ ul.breadcrumb {
  .box-footer title{
 	color: #FFF;
  }
- /* Responsoveness of the website */
-
-	 /* Extra small devices (phones, 900px and down) */
-@media only screen and (max-width: 900px) {
-	.container{
-		width: 90%;
-	}
-	
-	.pro-text{
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		font-size: 36px;
-		margin: 0 auto;
-	 
-	}
- .site-info{
-	 float: none;
-	 width: auto;
- }
- .site-contact{
-	 display: none;
-	 width: auto;
- }
- .footer{
-	display: inline-flexbox;
-	justify-content: center;
-	padding: 0 20px;
-	}
-	.box-footer{
-		margin-right: 0px;
-		box-sizing: border-box;
-	}
-	.copyright{
-		width: auto;
-	}
-	.prom{
-		float: left;
-		 
-		}
-		.logo a{
-			 
-			color: #333;
-		}
-		.logo a span.pro{
-		color: #efc050 ;
-		}
-		
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-	.top-header{
-		padding: 10px 20px;
-		
-	}
-	.pro-text{
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		text-align: center;
-		color: rgb(255, 255, 255);
-		font-size: 30px;
-		margin: 0 auto;
-	 
-	}
-	.proform{
-		width: 100%;
-	}
-	.logo-name .logo-responsive{
-		text-decoration: none;
-	}
-	.toggle-menu{
-	display: block;
-	text-decoration: none;
-	  }
-	.logo-toggle{
-		display: none;
-	}
-	.container{
-		width: auto;
-	}
-	.site-nav{
-		display: block;
-		display: none;
-		float: none;
-	}
-	.site-nav ul{
-    display: block;
-	}
-	.site-nav ul li{
-		display: block;
-	}
-	.site-nav ul li a{
-		display: block;
-		padding: 0px 0px;
-	}
-	.site-nav ul li a{
-		color: #444;
-		padding: 0px 10px;
-	}
-	.site-nav ul li.active a{
-		color: #444;
-	
-	}.site-nav ul li.logout a{
-		color: orange;
-		background: #01447e;
-	
-	}
-	.site-nav ul li a:hover{
-		color: #efc050 ;
-		/* background-color: #333; */
-	}
-	/* .middle-header{
-		background-color: #efc050 ;
-		padding: 0px 0;
-	} */
-	.form-box .search-field{
-		width: 100%;
-		height: 40px;
-		display: block;
-	}
-	.form-box input{
-		width: 100%;
-		height: 40px;
-		display: block;
-	}
-	.product{
-		width: 33%;
-		height: auto;
-		float: left;
-		padding: 10px;
-		margin: 15px;
-		background: #fff;
-		margin-top: 30px;
-		-webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
-		-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-		box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-		transition: box-shadow 200ms ease-in-out; 
-	}
-	.box-project{
-		position: static;
-		padding: 20px 20px;
-		display: flex;
-		justify-content: center;
-		display: auto;
-	}
-	.box-info{
-		width: 14%;
-	}
-	.slider{
-		width: auto;
-		height: auto;
-	}
-	.main{
-		padding: 20px 20px;
-	}
-	 
-		input {
-			font-size: 14px;
-		}
-		/* End of header search css */
-		
-	} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
- /* Image and search form css */
- .logo{
-	float: left;
-	}
-	.logo a{
-		text-decoration: none;
-		color: #333;
-	}
-	.logo a span.pro{
-	color: #efc050 ;
-	}
- .bottom-header{
-	 display: block;
- }
-   .profom {
-	width: 100%;
-	padding: 200px;
-	display: block;
- }
- .search-field{
-	 display: block;
-	 widows: 100%;
-	 height: 40px;
- }
-  
-.container .slider{
-	margin-bottom: -200px;
-}
-.pro-header{
-	padding: 90px 0;
-	height: 30%;
-	background-size: cover;
-	background-position: bottom; 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Courier New', Courier, monospace;
-}
-.pro-text{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	text-align: center;
-	color: rgb(255, 255, 255);
-	font-size: 26px;
-	margin: 0 auto;
  
-}
- 
-.form-box .search-field{
-	width: 100%;
-	height: 40px;
-	display: block;
-}
-.form-box input{
-	width: 100%;
-	height: 40px;
-	display: block;
-}
-/* End of header search css */
-.product{
-	width: 90%;
-	height: auto;
-	float: left;
-	padding: 10px;
-	margin: 15px;
-	background: #fff;
-	margin-top: 30px;
-	-webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-	transition: box-shadow 200ms ease-in-out; 
-}
-.product-img{
-	width: 100%;
-	height: auto;
-	margin: auto;
-}
- 
-.box-footer{
-	width: 100%;
-}
-.proform{
-	width: 70%;
-}
-}
-@media only screen and (max-width: 400px) {
-	.proform{
-		width: 100%;
-	}
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-	.top-header{
-		padding: 5px 20px;
-	}
-	.toggle-menu{
-	display: block;
-	  }
-	.logo-toggle{
-		display: none;
-	}
-	.container{
-		width: auto;
-	}
-	.site-nav{
-		display: block;
-		display: none;
-		float: none;
-	}
-	.site-nav ul{
-display: block;
-	}
-	.site-nav ul li{
-		display: block;
-	}
-	.site-nav ul li a{
-		display: block;
-		padding: 0px 0px;
-	}
-	.site-nav ul li a{
-		color: #444;
-		padding: 0px 10px;
-	}
-	.site-nav ul li.active a{
-		color: #444;
-	
-	}
-	.site-nav ul li a:hover{
-		color: #efc050 ;
-		/* background-color: #333; */
-	}
-	/* .middle-header{
-		background-color: #efc050 ;
-		padding: 0px 0;
-	} */
-	.box-project{
-		position: static;
-		padding: 20px 20px;
-		display: flex;
-		justify-content: center;
-		display: auto;
-	}
-	.slider{
-		width: auto;
-		height: auto;
-	}
-	.main{
-		padding: 30px 20px;
-	}
-	.footer{
-		display: inline-flexbox;
-		justify-content: center;
-		padding: 0 20px;
-		}
-		.box-footer{
-			margin-right: 0px;
-			box-sizing: border-box;
-		}
-		.copyright{
-			width: auto;
-		}
-		.pro-header{
-			padding: 140px 0;
-			display: block;
-			height: 30%;
-			background-size: cover;
-			background-position: bottom; 
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-family: 'Courier New', Courier, monospace;
-		}
-		 
-		.search-field{
-			height: 30px;
-			padding: 10px;
-
-			
-		}
-		.prosearch{
-			width: 230px;
-		}
-		.location{
-			width: 200px;
-		}
-		.search-btn{
-			height: 43px;
-			width: 100px;
-			background: rgb(88, 78, 78);
-			border: none; 
-			color: #fff;
-			float: center;
-		}
-		.search-btn:hover{
-			background: rgb(88, 78, 78);
-		}
-		.form-box{
-			padding: 20px 10px;
-		
-			background:rgba(170, 157, 157, 0.5);
-			border-radius: 15px;
-		}
-		input{
-			font-size: 15px;
-		}
-		/* End of header search css */
-		
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .example {background: pink;}
-}

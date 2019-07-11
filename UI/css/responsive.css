@@ -1,0 +1,378 @@
+/* Responsoveness of the website */
+
+	 /* Extra small devices (phones, 900px and down) */
+@media only screen and (max-width: 900px) {
+	.container{
+		width: 90%;
+	}
+	
+	.pro-text{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		text-align: center;
+		color: rgb(255, 255, 255);
+		font-size: 36px;
+		margin: 0 auto;
+	 
+	}
+ .site-info{
+	 float: none;
+	 width: auto;
+ }
+ .site-contact{
+	 display: none;
+	 width: auto;
+ }
+ .footer{
+	display: inline-flexbox;
+	justify-content: center;
+	padding: 0 20px;
+	}
+	.box-footer{
+		margin-right: 0px;
+		box-sizing: border-box;
+	}
+	.copyright{
+		width: auto;
+	}
+	.prom{
+		float: left;
+		 
+		}
+		.logo a{
+			 
+			color: #333;
+		}
+		.logo a span.pro{
+		color: #55A4D7 ;
+		}
+		
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.top-header{
+		padding: 10px 20px;
+		
+	}
+	.pro-text{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		text-align: center;
+		color: rgb(255, 255, 255);
+		font-size: 30px;
+		margin: 0 auto;
+	 
+	}
+	.proform{
+		width: 100%;
+	}
+	.logo-name .logo-responsive{
+		text-decoration: none;
+	}
+	.toggle-menu{
+	display: block;
+	text-decoration: none;
+	  }
+	.logo-toggle{
+		display: none;
+	}
+	.container{
+		width: auto;
+	}
+	.site-nav{
+		display: block;
+		display: none;
+		float: none;
+	}
+	.site-nav ul{
+    display: block;
+	}
+	.site-nav ul li{
+		display: block;
+	}
+	.site-nav ul li a{
+		display: block;
+		padding: 0px 0px;
+	}
+	.site-nav ul li a{
+		color: #444;
+		padding: 0px 10px;
+	}
+	.site-nav ul li.active a{
+		color: #444;
+	
+	}.site-nav ul li.logout a{
+		color: orange;
+		background: #01447e;
+	
+	}
+	.site-nav ul li a:hover{
+		color: #55A4D7 ;
+		/* background-color: #333; */
+	}
+	/* .middle-header{
+		background-color: #55A4D7 ;
+		padding: 0px 0;
+	} */
+	.form-box .search-field{
+		width: 100%;
+		height: 40px;
+		display: block;
+	}
+	.form-box input{
+		width: 100%;
+		height: 40px;
+		display: block;
+	}
+	.product{
+		width: 33%;
+		height: auto;
+		float: left;
+		padding: 10px;
+		margin: 15px;
+		background: #fff;
+		margin-top: 30px;
+		-webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+		transition: box-shadow 200ms ease-in-out; 
+	}
+	.box-project{
+		position: static;
+		padding: 20px 20px;
+		display: flex;
+		justify-content: center;
+		display: auto;
+	}
+	.box-info{
+		width: 14%;
+	}
+	.slider{
+		width: auto;
+		height: auto;
+	}
+	.main{
+		padding: 20px 20px;
+	}
+	 
+		input {
+			font-size: 14px;
+		}
+		/* End of header search css */
+		
+	} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+ /* Image and search form css */
+ .logo{
+	float: left;
+	}
+	.logo a{
+		text-decoration: none;
+		color: #333;
+	}
+	.logo a span.pro{
+	color: #55A4D7 ;
+	}
+ .bottom-header{
+	 display: block;
+ }
+   .profom {
+	width: 100%;
+	padding: 200px;
+	display: block;
+ }
+ .search-field{
+	 display: block;
+	 widows: 100%;
+	 height: 40px;
+ }
+  
+.container .slider{
+	margin-bottom: -200px;
+}
+.pro-header{
+	padding: 90px 0;
+	height: 30%;
+	background-size: cover;
+	background-position: bottom; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+.pro-text{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 26px;
+	margin: 0 auto;
+ 
+}
+ 
+.form-box .search-field{
+	width: 100%;
+	height: 40px;
+	display: block;
+}
+.form-box input{
+	width: 100%;
+	height: 40px;
+	display: block;
+}
+/* End of header search css */
+.product{
+	width: 90%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	margin: 15px;
+	background: #fff;
+	margin-top: 30px;
+	-webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	transition: box-shadow 200ms ease-in-out; 
+}
+.product-img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+ 
+.box-footer{
+	width: 100%;
+}
+.proform{
+	width: 70%;
+}
+}
+@media only screen and (max-width: 400px) {
+	.proform{
+		width: 100%;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	.top-header{
+		padding: 5px 20px;
+	}
+	.toggle-menu{
+	display: block;
+	  }
+	.logo-toggle{
+		display: none;
+	}
+	.container{
+		width: auto;
+	}
+	.site-nav{
+		display: block;
+		display: none;
+		float: none;
+	}
+	.site-nav ul{
+display: block;
+	}
+	.site-nav ul li{
+		display: block;
+	}
+	.site-nav ul li a{
+		display: block;
+		padding: 0px 0px;
+	}
+	.site-nav ul li a{
+		color: #444;
+		padding: 0px 10px;
+	}
+	.site-nav ul li.active a{
+		color: #444;
+	
+	}
+	.site-nav ul li a:hover{
+		color: #55A4D7 ;
+		/* background-color: #333; */
+	}
+	/* .middle-header{
+		background-color: #55A4D7 ;
+		padding: 0px 0;
+	} */
+	.box-project{
+		position: static;
+		padding: 20px 20px;
+		display: flex;
+		justify-content: center;
+		display: auto;
+	}
+	.slider{
+		width: auto;
+		height: auto;
+	}
+	.main{
+		padding: 30px 20px;
+	}
+	.footer{
+		display: inline-flexbox;
+		justify-content: center;
+		padding: 0 20px;
+		}
+		.box-footer{
+			margin-right: 0px;
+			box-sizing: border-box;
+		}
+		.copyright{
+			width: auto;
+		}
+		.pro-header{
+			padding: 140px 0;
+			display: block;
+			height: 30%;
+			background-size: cover;
+			background-position: bottom; 
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Courier New', Courier, monospace;
+		}
+		 
+		.search-field{
+			height: 30px;
+			padding: 10px;
+
+			
+		}
+		.prosearch{
+			width: 230px;
+		}
+		.location{
+			width: 200px;
+		}
+		.search-btn{
+			height: 43px;
+			width: 100px;
+			background: #55A4D7;
+			border: none; 
+			color: #fff;
+			float: center;
+		}
+		.search-btn:hover{
+			background: #55A4D7;
+		}
+		.form-box{
+			padding: 20px 10px;
+		
+			background:rgba(170, 157, 157, 0.5);
+			border-radius: 15px;
+		}
+		input{
+			font-size: 15px;
+		}
+		/* End of header search css */
+		
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
