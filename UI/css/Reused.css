@@ -1,0 +1,99 @@
+ /* CSS for the PropertyPro-Lite */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: grey;
+}
+ 
+body{
+	font-size: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-header{
+	 
+	color:#333;
+	padding: 5px 0px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	-webkit-animation-delay: 100ms;
+}
+.container:after{
+content: "";
+display: block;
+clear: both;
+}
+ 
+ 
+.logo{
+float: left;
+}
+.logo a{
+	text-decoration: none;
+	color: #333;
+}
+.logo a span.pro{
+color: #55A4D7 ;
+}
+.site-nav{
+	float: right;
+}
+.site-nav ul{
+	display: flex;
+}
+.site-nav ul li{
+	display: inline-block;
+	list-style-type: block;
+	padding: 10px 10px;
+}
+.site-nav ul li a{
+	display: block;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333;
+}
+.site-nav ul li.active a{
+	color: #55A4D7 ;
+}
+.site-nav ul li a:hover{
+	 	color:#55A4D7 ;
+}
+.site-nav ul li a .advert{
+	background: #55A4D7;
+}
+ 
+.icon{
+	font-size: 20px;
+	color: #55A4D7 ;
+	padding: 5px 20px;
+	 
+}
+.prom{
+	height: 40px;
+}
+/* Toggle navigation css */
+
+.toggle-menu{
+	background-color: #fff;
+	padding: 24px 20px 35px 20px;
+	color: #fff;
+	display: none;
+	position: relative;
+}
+.logo-responsive{
+text-decoration: none;
+float: left;
+}
+.icon-toggle{
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.icon-toggle:hover{
+	cursor: pointer;
+}
