@@ -1,0 +1,43 @@
+{
+  "name": "propertypro",
+  "version": "1.0.0",
+  "description": "Property Pro Lite is a platform where people can create and/or search properties for sale or rent.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/server.js",
+    "build": "mkdir dist && babel server -s -d dist",
+    "test": "nyc --reporter=html --reporter=text mocha --require @babel/register --exit",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarangwaEmmy/PropertyPro.git"
+  },
+  "keywords": [
+    "rent",
+    "sell"
+  ],
+  "author": "Emmy Karangwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KarangwaEmmy/PropertyPro/issues"
+  },
+  "homepage": "https://github.com/KarangwaEmmy/PropertyPro#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.14.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.4.4",
+    "nodemon": "^1.19.1"
+  }
+}
