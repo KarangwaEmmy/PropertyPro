@@ -1,6 +1,6 @@
 const properties =[
     {
-         Id :'1',
+         id :'1',
          owner :'Emmy',
          status :'status',
          price :'50000',
@@ -13,7 +13,7 @@ const properties =[
 
     },
     {
-        Id :'2',
+        id :'2',
         owner :'Moses',
         status :'available',
         price :'340000',
@@ -26,7 +26,7 @@ const properties =[
 
    },
    {
-    Id :'3',
+    id :'3',
     owner :'Lucky',
     status :'sold',
     price :'40000',

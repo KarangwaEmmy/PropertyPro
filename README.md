@@ -1,4 +1,5 @@
 # PropertyPro
+[![Coverage Status](https://coveralls.io/repos/github/KarangwaEmmy/PropertyPro/badge.svg?branch=develop)](https://coveralls.io/github/KarangwaEmmy/PropertyPro?branch=develop)
 
  Property Pro Lite is a platform where people can create and/or search properties for sale or rent.
   
