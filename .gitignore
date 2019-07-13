@@ -1,4 +1,4 @@
 dist/
-node_modeules/
-coverage/
+node_modules
 .env
+.vscode
