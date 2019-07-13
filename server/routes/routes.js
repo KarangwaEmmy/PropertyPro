@@ -1,14 +1,18 @@
 import express from 'express'
-import PropertyController from '../controllers/PropertyController';
 const router = express.Router()
 
-router.get('/properties', PropertyController.viewAllProperties);
-router.get('/property/:id', PropertyController.viewPropertyById);
-router.post('/property', PropertyController.addNewProperty);
-router.delete('/property/:id', PropertyController.deleteProperty);
+import {createUser, loginUser, getAllUsers, getUserById} from "../controllers/userController";
+import { getAllProperties, getPropertyById, createProperty, getPropertyByType,updateProperty,deleteProperty} from '../controllers/propertyController'
 
-router.patch('/property/:id',PropertyController.updateProperty);
-router.patch('/property/:id/sold', PropertyController.markPropertyAsSold);
-router.get('/property/type/', PropertyController.viewPropertiesByType);
+router.post("/user", createUser);
+router.post("/user/login", validateLogin, loginUser)
+router.get('/user', getAllUsers)
+
+router.get('/properties', getAllProperties);
+router.get('/properties/:id', getPropertyById);
+router.get('/properties/type/:type', getPropertyByType);
+router.put('properties', updateProperty);
+router.post('/properties', createProperty);
+router.delete('properties', deleteProperty)
 
 export default router;

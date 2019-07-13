@@ -1,42 +1,44 @@
 const properties =[
     {
-         id :'1',
-         owner :'Emmy',
-         status :'status',
-         price :'50000',
-         state :'Kigali',
-         city :'Kigali',
-         address :'Downtown',
-         type :'2 bedroom',
-         created_on :'23-4-2019',
-         image_url :'images/image1.jpg'
+    id: 1,
+    owner: 1, // user id
+    status: 'available', // sold,available - default is available
+    price: 8000000,
+    state: 'Rwanda', // State where property is located
+    city: 'Kigali', // City where property is located
+    address: 'KK 1 st',
+    type: '3 bedroom', // 2 bedroom, 3 bedroom etc
+    created_on: '2019-07-07T17:39:17+02:00',
+    image_url:
+      'https://res.cloudinary.com/apartment1_hemjm4.jpg'
+    
 
     },
     {
-        id :'2',
-        owner :'Moses',
-        status :'available',
-        price :'340000',
-        state :'Kikuyu',
-        city :'Nairobi',
-        address :'Downtown',
-        type :'3 bedroom',
-        created_on :'2-4-2019',
-        image_url :'images/image3.jpg'
-
+    id: 2,
+    owner: 2, // user id
+    status: 'available', // sold,available - default is available
+    price: 8000000,
+    state: 'Nigeria', // State where property is located
+    city: 'Abuja', // City where property is located
+    address: 'KK 1 st',
+    type: '3 bedroom', // 2 bedroom, 3 bedroom etc
+    created_on: '2019-07-07T17:39:17+02:00',
+    image_url:
+    'https://res.cloudinary.com/apartment1_hemjm4.jpg'
    },
    {
-    id :'3',
-    owner :'Lucky',
-    status :'sold',
-    price :'40000',
-    state :'Abuja',
-    city :'Lagos',
-    address :'Downtown',
-    type :'2 bedroom',
-    created_on :'3-4-2019',
-    image_url :'images/image5.jpg'
-
+    id: 3,
+    owner: 3, // user id
+    status: 'available', // sold,available - default is available
+    price: 8000000,
+    state: 'Uganda', // State where property is located
+    city: 'Kampala', // City where property is located
+    address: 'KK 1 st',
+    type: '3 bedroom', // 2 bedroom, 3 bedroom etc
+    created_on: '2019-07-07T17:39:17+02:00',
+    image_url:
+      'https://res.cloudinary.com/apartment1_hemjm4.jpg'
 }
 ]
 
