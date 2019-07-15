@@ -4,8 +4,9 @@
   "description": "Property Pro Lite is a platform where people can create and/or search properties for sale or rent.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server/server.js",
-    "build": "mkdir dist && babel server -s -d dist",
+    "dev": "nodemon --exec babel-node server/server.js",
+    "start": "node dist/server.js",
+    "build": "@babel server -s -d dist",
     "test": "nyc --reporter=html --reporter=text mocha --require @babel/register --exit",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "production": "nodemon --exec babel-node server/server.js",
