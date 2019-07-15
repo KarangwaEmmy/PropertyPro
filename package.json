@@ -40,14 +40,14 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
     "travis-cli": "^1.0.9",
-    "validator": "^11.1.0"
-  },
-  "devDependencies": {
+    "validator": "^11.1.0",
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
     "@babel/node": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
+  },
+  "devDependencies": {
     "coveralls": "^3.0.5",
     "nodemon": "^1.19.1"
   }
