@@ -5,7 +5,7 @@ import {createUser, loginUser, getAllUsers, getUserById} from "../controllers/us
 import { getAllProperties, getPropertyById, createProperty, getPropertyByType,updateProperty,deleteProperty} from '../controllers/propertyController'
 
 router.post("/signup", createUser);
-router.post("/login", validateLogin, loginUser)
+// router.post("/login", validateLogin, loginUser)
 router.get('/user', getAllUsers)
 
 router.get('/properties', getAllProperties);
