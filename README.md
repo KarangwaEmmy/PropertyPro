@@ -27,4 +27,4 @@ Template URL
 https://karangwaemmy.github.io/PropertyPro/UI/html/
 
 API URL
-https://propertyprolite12.herokuapp.com/
+https://propertyprolite12.herokuapp.com/api/v1
