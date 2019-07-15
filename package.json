@@ -4,13 +4,17 @@
   "description": "Property Pro Lite is a platform where people can create and/or search properties for sale or rent.",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node server/server.js",
-    "start": "node dist/server.js",
-    "build": "@babel server -s -d dist",
-    "test": "nyc --reporter=html --reporter=text mocha --require @babel/register --exit",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "production": "nodemon --exec babel-node server/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+    "start": "babel-watch server/server.js --require @babel/register",
+
+    "build": "babel server -d dist",
+
+    "server": "npm run build && node dist/server.js",
+
+    "local_test": "mocha ./server/test --require @babel/register",
+
+    "test": "npm run build && nyc mocha ./dist/test/test.js",
+
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "engines": {
     "npm": "6.9.0",
@@ -52,6 +56,7 @@
     "@babel/register": "^7.4.4"
   },
   "devDependencies": {
+    "babel-watch": "^7.0.0",
     "coveralls": "^3.0.5",
     "nodemon": "^1.19.1"
   }
