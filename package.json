@@ -12,6 +12,10 @@
     "production": "nodemon --exec babel-node server/server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.16.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KarangwaEmmy/PropertyPro.git"
