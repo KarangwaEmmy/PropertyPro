@@ -27,6 +27,7 @@ Template URL
 https://karangwaemmy.github.io/PropertyPro/UI/html/
 
 API URL
+<<<<<<< HEAD
 http://propertypro12.herokuapp.com/api/v1
 
 Displaying all properties
@@ -37,3 +38,6 @@ http://propertypro12.herokuapp.com/api/v1/properties/1
 
 Property by type
 http://propertypro12.herokuapp.com/api/v1/properties/type/1 bedroom
+=======
+https://propertyprolite12.herokuapp.com/api/v1
+>>>>>>> 6ba7c9cc41e58f6983d0c8663742711b368d63b2
