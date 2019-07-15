@@ -63,6 +63,8 @@ hr{
 }
 .details ul li{
 list-style-type: none;
+color: gray;
+padding: 9px;
 margin-bottom: 2px auto;
 }
 .details ul li.a{
