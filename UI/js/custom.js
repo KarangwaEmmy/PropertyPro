@@ -8,3 +8,19 @@ function myFunction(){
         x.style.display = "block";
     }
 }
+
+// checkbox manager
+
+var btnSubscribe = document.getElementById("btnSubmitSubscribe");
+
+btnSubscribe.addEventListener("click", function (evt) {
+
+    evt.preventDefault();
+
+    var subscribe = document.querySelector("[name=subscribe]");
+
+    console.log(subscribe.value); //writes 'newsletter'
+
+    return false;
+
+});

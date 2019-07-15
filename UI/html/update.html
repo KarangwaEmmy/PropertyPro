@@ -53,7 +53,7 @@
 			<div class="details">
 				<ul>
           <li ><span class="locate"><i class="fas fa-map-marker-alt" ></i></span>   Kigali Downtown</li>
-          <li class="price"><i class="fas fa-dollar-sign"></i> $6000</li>
+          <li class=""><i class="fas fa-dollar-sign"></i> $6000</li>
           <li><i class="fas fa-bath"></i>  +1 bathroom</li>
           <li><i class="fas fa-bed"></i>  3 bedrooms</li>
           <li><i class="fas fa-phone"></i>  (+250) 786639530</li>
@@ -62,15 +62,27 @@
 			  </div>
               <div class="desc">
 				  <h5>Description</h5><hr>
-				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
               </div>
               <div class="action">
                   <span class="delete"><a href=""><i class="fas fa-trash-alt"></i> Delete</a></span>
                   <span class="action"><a href="Update-property.html"><i class="far fa-edit"></i> Update</a></span>
-                  <span class="sold"><a href="">Mark as Sold</a></span>
+                  <span class="sold"><a href="javascript:void(0)"><input type="checkbox"> Mark as Sold  </a></span>
               </div>
             </div>
           </div>
-        </div>
+		</div>
+		<script>
+			$(function(){
+    var test = localStorage.input === 'true'? true: false;
+			$('input').prop('checked', test || false);
+			});
+
+			$('input').on('change', function() {
+			localStorage.input = $(this).is(':checked');
+			console.log($(this).is(':checked'));
+			});
+			
+			</script>
 </body>
 </html> 
