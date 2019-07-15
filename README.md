@@ -23,21 +23,19 @@ Clone repository
 -git clone repository
 -npm install to install development dependencies
 
-Template URL
+Template URL: 
 https://karangwaemmy.github.io/PropertyPro/UI/html/
 
-API URL
-<<<<<<< HEAD
+API URL: 
+ 
 http://propertypro12.herokuapp.com/api/v1
 
-Displaying all properties
+Displaying all properties: 
 http://propertypro12.herokuapp.com/api/v1/properties
 
-Property by Id
+Property by Id: 
 http://propertypro12.herokuapp.com/api/v1/properties/1
 
-Property by type
+Property by type: 
 http://propertypro12.herokuapp.com/api/v1/properties/type/1 bedroom
-=======
-https://propertyprolite12.herokuapp.com/api/v1
->>>>>>> 6ba7c9cc41e58f6983d0c8663742711b368d63b2
+ 
