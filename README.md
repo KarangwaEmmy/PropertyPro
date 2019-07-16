@@ -1,7 +1,7 @@
 # PropertyPro
 [![Coverage Status](https://coveralls.io/repos/github/KarangwaEmmy/PropertyPro/badge.svg?branch=develop)](https://coveralls.io/github/KarangwaEmmy/PropertyPro?branch=develop)
 [![Build Status](https://travis-ci.org/KarangwaEmmy/PropertyPro.svg?branch=develop)](https://travis-ci.org/KarangwaEmmy/PropertyPro)
-<a href="https://codeclimate.com/github/KarangwaEmmy/PropertyPro/maintainability"><img src="https://api.codeclimate.com/v1/badges/f058c80b7ff43a60a888/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/f058c80b7ff43a60a888/maintainability)](https://codeclimate.com/github/KarangwaEmmy/PropertyPro/maintainability)
 
  Property Pro Lite is a platform where people can create and/or search properties for sale or rent.
   
