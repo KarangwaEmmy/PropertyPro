@@ -18,7 +18,7 @@ const properties =[
     id: 2,
     owner: 2, // user id
     status: 'available', // sold,available - default is available
-    price: 8000000,
+    price: 6000000,
     state: 'Nigeria', // State where property is located
     city: 'Abuja', // City where property is located
     address: 'KK 1 st',
@@ -31,7 +31,7 @@ const properties =[
     id: 3,
     owner: 3, // user id
     status: 'available', // sold,available - default is available
-    price: 8000000,
+    price: 4000000,
     state: 'Uganda', // State where property is located
     city: 'Kampala', // City where property is located
     address: 'KK 1 st',
