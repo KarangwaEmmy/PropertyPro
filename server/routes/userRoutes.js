@@ -1,26 +1,7 @@
-import express from 'express';
-import userController from '../controllers/userController';
-import userValidations from '../middleware/validations/userValidations';
-import validateResult from '../middleware/validations/validateResult';
+import User from '../controllers/User';
+import UserValidate from '../middleware/UserValidate';
 
-const router = express.Router();
-
-const {
-  checkSignUp, checkSignIn,
-} = userValidations;
-
-router.post(
-  '/signup',
-  checkSignUp,
-  validateResult,
-  userController.signup,
-);
-
-router.post(
-  '/signin',
-  checkSignIn,
-  validateResult,
-  userController.signin,
-);
-
-export default router;
+export default function routeUser(app) {
+  app.post('/api/v1/auth/signup', UserValidate.validateSignUp, User.create);
+  app.post('/api/v1/auth/signin', UserValidate.validateSignIn, User.getOne);
+}
