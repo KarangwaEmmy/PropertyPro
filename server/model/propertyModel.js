@@ -6,11 +6,11 @@ const properties =[
     price: 8000000,
     state: 'Rwanda', // State where property is located
     city: 'Kigali', // City where property is located
-    address: 'KK 1 st',
+    address: 'KK 5 st',
     type: '3 bedroom', // 2 bedroom, 3 bedroom etc
-    created_on: '2019-07-07T17:39:17+02:00',
+    created_on: '2019-09-07T17:39:17+02:00',
     image_url:
-      'https://res.cloudinary.com/apartment1_hemjm4.jpg'
+      'https://res.cloudinary.com/apartment1_hemjm5.jpg'
     
 
     },
@@ -21,11 +21,11 @@ const properties =[
     price: 6000000,
     state: 'Nigeria', // State where property is located
     city: 'Abuja', // City where property is located
-    address: 'KK 1 st',
+    address: 'KK 3 st',
     type: '3 bedroom', // 2 bedroom, 3 bedroom etc
-    created_on: '2019-07-07T17:39:17+02:00',
+    created_on: '2019-05-07T17:39:17+02:00',
     image_url:
-    'https://res.cloudinary.com/apartment1_hemjm4.jpg'
+    'https://res.cloudinary.com/apartment1_hemjm7.jpg'
    },
    {
     id: 3,
